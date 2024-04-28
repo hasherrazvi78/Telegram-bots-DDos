@@ -4,7 +4,7 @@ from telegram.ext import *
 import os
 import os.path
 import time
-#pip install python-telegram-bot numpy dnspython==1.15.0
+pip install python-telegram-bot numpy dnspython==1.15.0
 
 delay = 1.5
 API_KEY = '7052400220:AAHYPh1ZdkvHjm3Y4g9zXaXEvxPBCzISZec'#填寫Telegram bots API Token
@@ -168,7 +168,7 @@ def error(update, context):
 
 # Run the programme
 if __name__ == '__main__':
-    updater = Updater(API_KEY, use_context=True)
+    updater = Updater(API_KEY, use_context=true)
     dp = updater.dispatcher
 
     # Commands
